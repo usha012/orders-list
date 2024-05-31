@@ -1,0 +1,888 @@
+[
+    {
+      "id": 210,
+      "display_id": 9,
+      "owner": 1080,
+      "name": "Ancient Artifact",
+      "category": "Mystical Objects",
+      "characteristics": "Historical Significance",
+      "features": "Rare, Authentic",
+      "brand": "Artifact Brand",
+      "sku": [
+        {
+          "id": 249,
+          "selling_price": 100,
+          "max_retail_price": 90,
+          "amount": 5,
+          "unit": "pieces",
+          "quantity_in_inventory": 10,
+          "product": 210
+        },
+        {
+          "id": 250,
+          "selling_price": 200,
+          "max_retail_price": 180,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 3,
+          "product": 210
+        },
+        {
+          "id": 272,
+          "selling_price": 150,
+          "max_retail_price": 140,
+          "amount": 3,
+          "unit": "pieces",
+          "quantity_in_inventory": 5,
+          "product": 210
+        },
+        {
+          "id": 273,
+          "selling_price": 50,
+          "max_retail_price": 45,
+          "amount": 10,
+          "unit": "pieces",
+          "quantity_in_inventory": 8,
+          "product": 210
+        },
+        {
+          "id": 274,
+          "selling_price": 300,
+          "max_retail_price": 280,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 1,
+          "product": 210
+        }
+      ],
+      "updated_on": "2024-05-24T12:50:41.995873Z",
+      "adding_date": "2024-05-24T12:50:41.995828Z"
+    },
+    {
+      "id": 211,
+      "display_id": 10,
+      "owner": 1081,
+      "name": "Dragon Scale",
+      "category": "Fantasy Materials",
+      "characteristics": "Magic Infused",
+      "features": "Indestructible",
+      "brand": "Dragon Brand",
+      "sku": [
+        {
+          "id": 251,
+          "selling_price": 300,
+          "max_retail_price": 280,
+          "amount": 1,
+          "unit": "kg",
+          "quantity_in_inventory": 2,
+          "product": 211
+        },
+        {
+          "id": 275,
+          "selling_price": 320,
+          "max_retail_price": 300,
+          "amount": 2,
+          "unit": "kg",
+          "quantity_in_inventory": 3,
+          "product": 211
+        },
+        {
+          "id": 276,
+          "selling_price": 350,
+          "max_retail_price": 330,
+          "amount": 3,
+          "unit": "kg",
+          "quantity_in_inventory": 1,
+          "product": 211
+        },
+        {
+          "id": 277,
+          "selling_price": 280,
+          "max_retail_price": 260,
+          "amount": 1,
+          "unit": "kg",
+          "quantity_in_inventory": 4,
+          "product": 211
+        },
+        {
+          "id": 278,
+          "selling_price": 310,
+          "max_retail_price": 290,
+          "amount": 2,
+          "unit": "kg",
+          "quantity_in_inventory": 2,
+          "product": 211
+        }
+      ],
+      "updated_on": "2024-05-24T12:51:41.995873Z",
+      "adding_date": "2024-05-24T12:51:41.995828Z"
+    },
+    {
+      "id": 212,
+      "display_id": 11,
+      "owner": 1082,
+      "name": "Phoenix Feather",
+      "category": "Magical Items",
+      "characteristics": "Rejuvenating",
+      "features": "Renewal Powers",
+      "brand": "Phoenix Brand",
+      "sku": [
+        {
+          "id": 252,
+          "selling_price": 75,
+          "max_retail_price": 70,
+          "amount": 10,
+          "unit": "grams",
+          "quantity_in_inventory": 5,
+          "product": 212
+        },
+        {
+          "id": 279,
+          "selling_price": 85,
+          "max_retail_price": 80,
+          "amount": 20,
+          "unit": "grams",
+          "quantity_in_inventory": 4,
+          "product": 212
+        },
+        {
+          "id": 280,
+          "selling_price": 65,
+          "max_retail_price": 60,
+          "amount": 5,
+          "unit": "grams",
+          "quantity_in_inventory": 6,
+          "product": 212
+        },
+        {
+          "id": 281,
+          "selling_price": 95,
+          "max_retail_price": 90,
+          "amount": 25,
+          "unit": "grams",
+          "quantity_in_inventory": 3,
+          "product": 212
+        },
+        {
+          "id": 282,
+          "selling_price": 105,
+          "max_retail_price": 100,
+          "amount": 30,
+          "unit": "grams",
+          "quantity_in_inventory": 2,
+          "product": 212
+        }
+      ],
+      "updated_on": "2024-05-24T12:52:41.995873Z",
+      "adding_date": "2024-05-24T12:52:41.995828Z"
+    },
+    {
+      "id": 213,
+      "display_id": 12,
+      "owner": 1083,
+      "name": "Unicorn Horn",
+      "category": "Fantasy Ingredients",
+      "characteristics": "Pure Magic",
+      "features": "Healing Properties",
+      "brand": "Unicorn Brand",
+      "sku": [
+        {
+          "id": 253,
+          "selling_price": 500,
+          "max_retail_price": 480,
+          "amount": 1,
+          "unit": "kg",
+          "quantity_in_inventory": 1,
+          "product": 213
+        },
+        {
+          "id": 283,
+          "selling_price": 520,
+          "max_retail_price": 500,
+          "amount": 2,
+          "unit": "kg",
+          "quantity_in_inventory": 2,
+          "product": 213
+        },
+        {
+          "id": 284,
+          "selling_price": 480,
+          "max_retail_price": 460,
+          "amount": 3,
+          "unit": "kg",
+          "quantity_in_inventory": 1,
+          "product": 213
+        },
+        {
+          "id": 285,
+          "selling_price": 490,
+          "max_retail_price": 470,
+          "amount": 1,
+          "unit": "kg",
+          "quantity_in_inventory": 3,
+          "product": 213
+        },
+        {
+          "id": 286,
+          "selling_price": 510,
+          "max_retail_price": 490,
+          "amount": 2,
+          "unit": "kg",
+          "quantity_in_inventory": 1,
+          "product": 213
+        }
+      ],
+      "updated_on": "2024-05-24T12:53:41.995873Z",
+      "adding_date": "2024-05-24T12:53:41.995828Z"
+    },
+    {
+      "id": 214,
+      "display_id": 13,
+      "owner": 1084,
+      "name": "Mermaid Tear",
+      "category": "Mystical Ingredients",
+      "characteristics": "Oceanic Magic",
+      "features": "Transformation",
+      "brand": "Mermaid Brand",
+      "sku": [
+        {
+          "id": 254,
+          "selling_price": 120,
+          "max_retail_price": 100,
+          "amount": 50,
+          "unit": "ml",
+          "quantity_in_inventory": 20,
+          "product": 214
+        },
+        {
+          "id": 287,
+          "selling_price": 130,
+          "max_retail_price": 110,
+          "amount": 40,
+          "unit": "ml",
+          "quantity_in_inventory": 15,
+          "product": 214
+        },
+        {
+          "id": 288,
+          "selling_price": 140,
+          "max_retail_price": 120,
+          "amount": 60,
+          "unit": "ml",
+          "quantity_in_inventory": 25,
+          "product": 214
+        },
+        {
+          "id": 289,
+          "selling_price": 110,
+          "max_retail_price": 90,
+          "amount": 30,
+          "unit": "ml",
+          "quantity_in_inventory": 10,
+          "product": 214
+        },
+        {
+          "id": 290,
+          "selling_price": 150,
+          "max_retail_price": 130,
+          "amount": 70,
+          "unit": "ml",
+          "quantity_in_inventory": 30,
+          "product": 214
+        }
+      ],
+      "updated_on": "2024-05-24T12:54:41.995873Z",
+      "adding_date": "2024-05-24T12:54:41.995828Z"
+    },
+    {
+      "id": 215,
+      "display_id": 14,
+      "owner": 1085,
+      "name": "Elf Bow",
+      "category": "Weapons",
+      "characteristics": "Precision",
+      "features": "Long Range",
+      "brand": "Elf Brand",
+      "sku": [
+        {
+          "id": 255,
+          "selling_price": 300,
+          "max_retail_price": 280,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 5,
+          "product": 215
+        },
+        {
+          "id": 291,
+          "selling_price": 320,
+          "max_retail_price": 300,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 4,
+          "product": 215
+        },
+        {
+          "id": 292,
+          "selling_price": 340,
+          "max_retail_price": 320,
+          "amount": 3,
+          "unit": "pieces",
+          "quantity_in_inventory": 3,
+          "product": 215
+        },
+        {
+          "id": 293,
+          "selling_price": 310,
+          "max_retail_price": 290,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 2,
+          "product": 215
+        },
+        {
+          "id": 294,
+          "selling_price": 330,
+          "max_retail_price": 310,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 1,
+          "product": 215
+        }
+      ],
+      "updated_on": "2024-05-24T12:55:41.995873Z",
+      "adding_date": "2024-05-24T12:55:41.995828Z"
+    },
+    {
+      "id": 216,
+      "display_id": 15,
+      "owner": 1086,
+      "name": "Vampire Fang",
+      "category": "Magical Items",
+      "characteristics": "Dark Power",
+      "features": "Life Drain",
+      "brand": "Vampire Brand",
+      "sku": [
+        {
+          "id": 256,
+          "selling_price": 200,
+          "max_retail_price": 180,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 10,
+          "product": 216
+        },
+        {
+          "id": 295,
+          "selling_price": 220,
+          "max_retail_price": 200,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 8,
+          "product": 216
+        },
+        {
+          "id": 296,
+          "selling_price": 240,
+          "max_retail_price": 220,
+          "amount": 3,
+          "unit": "pieces",
+          "quantity_in_inventory": 7,
+          "product": 216
+        },
+        {
+          "id": 297,
+          "selling_price": 260,
+          "max_retail_price": 240,
+          "amount": 4,
+          "unit": "pieces",
+          "quantity_in_inventory": 6,
+          "product": 216
+        },
+        {
+          "id": 298,
+          "selling_price": 280,
+          "max_retail_price": 260,
+          "amount": 5,
+          "unit": "pieces",
+          "quantity_in_inventory": 5,
+          "product": 216
+        }
+      ],
+      "updated_on": "2024-05-24T12:56:41.995873Z",
+      "adding_date": "2024-05-24T12:56:41.995828Z"
+    },
+    {
+      "id": 217,
+      "display_id": 16,
+      "owner": 1087,
+      "name": "Witch's Brew",
+      "category": "Potion",
+      "characteristics": "Mystical Effects",
+      "features": "Transformative Properties",
+      "brand": "Witch Brand",
+      "sku": [
+        {
+          "id": 257,
+          "selling_price": 50,
+          "max_retail_price": 45,
+          "amount": 100,
+          "unit": "ml",
+          "quantity_in_inventory": 20,
+          "product": 217
+        },
+        {
+          "id": 299,
+          "selling_price": 60,
+          "max_retail_price": 55,
+          "amount": 200,
+          "unit": "ml",
+          "quantity_in_inventory": 15,
+          "product": 217
+        },
+        {
+          "id": 300,
+          "selling_price": 70,
+          "max_retail_price": 65,
+          "amount": 300,
+          "unit": "ml",
+          "quantity_in_inventory": 10,
+          "product": 217
+        },
+        {
+          "id": 301,
+          "selling_price": 80,
+          "max_retail_price": 75,
+          "amount": 400,
+          "unit": "ml",
+          "quantity_in_inventory": 5,
+          "product": 217
+        },
+        {
+          "id": 302,
+          "selling_price": 90,
+          "max_retail_price": 85,
+          "amount": 500,
+          "unit": "ml",
+          "quantity_in_inventory": 3,
+          "product": 217
+        }
+      ],
+      "updated_on": "2024-05-24T12:57:41.995873Z",
+      "adding_date": "2024-05-24T12:57:41.995828Z"
+    },
+    {
+      "id": 218,
+      "display_id": 17,
+      "owner": 1088,
+      "name": "Fairy Dust",
+      "category": "Magical Ingredients",
+      "characteristics": "Enchantment",
+      "features": "Levitation",
+      "brand": "Fairy Brand",
+      "sku": [
+        {
+          "id": 258,
+          "selling_price": 40,
+          "max_retail_price": 35,
+          "amount": 50,
+          "unit": "grams",
+          "quantity_in_inventory": 25,
+          "product": 218
+        },
+        {
+          "id": 303,
+          "selling_price": 45,
+          "max_retail_price": 40,
+          "amount": 100,
+          "unit": "grams",
+          "quantity_in_inventory": 20,
+          "product": 218
+        },
+        {
+          "id": 304,
+          "selling_price": 50,
+          "max_retail_price": 45,
+          "amount": 150,
+          "unit": "grams",
+          "quantity_in_inventory": 15,
+          "product": 218
+        },
+        {
+          "id": 305,
+          "selling_price": 55,
+          "max_retail_price": 50,
+          "amount": 200,
+          "unit": "grams",
+          "quantity_in_inventory": 10,
+          "product": 218
+        },
+        {
+          "id": 306,
+          "selling_price": 60,
+          "max_retail_price": 55,
+          "amount": 250,
+          "unit": "grams",
+          "quantity_in_inventory": 5,
+          "product": 218
+        }
+      ],
+      "updated_on": "2024-05-24T12:58:41.995873Z",
+      "adding_date": "2024-05-24T12:58:41.995828Z"
+    },
+    {
+      "id": 219,
+      "display_id": 18,
+      "owner": 1089,
+      "name": "Giant's Toenail",
+      "category": "Mythical Ingredients",
+      "characteristics": "Giant Strength",
+      "features": "Invincibility",
+      "brand": "Giant Brand",
+      "sku": [
+        {
+          "id": 259,
+          "selling_price": 180,
+          "max_retail_price": 170,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 10,
+          "product": 219
+        },
+        {
+          "id": 307,
+          "selling_price": 190,
+          "max_retail_price": 180,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 8,
+          "product": 219
+        },
+        {
+          "id": 308,
+          "selling_price": 200,
+          "max_retail_price": 190,
+          "amount": 3,
+          "unit": "pieces",
+          "quantity_in_inventory": 6,
+          "product": 219
+        },
+        {
+          "id": 309,
+          "selling_price": 210,
+          "max_retail_price": 200,
+          "amount": 4,
+          "unit": "pieces",
+          "quantity_in_inventory": 4,
+          "product": 219
+        },
+        {
+          "id": 310,
+          "selling_price": 220,
+          "max_retail_price": 210,
+          "amount": 5,
+          "unit": "pieces",
+          "quantity_in_inventory": 2,
+          "product": 219
+        }
+      ],
+      "updated_on": "2024-05-24T12:59:41.995873Z",
+      "adding_date": "2024-05-24T12:59:41.995828Z"
+    },
+    {
+      "id": 220,
+      "display_id": 19,
+      "owner": 1090,
+      "name": "Cyclops Eye",
+      "category": "Mythical Objects",
+      "characteristics": "Vision Enhancement",
+      "features": "Night Vision",
+      "brand": "Cyclops Brand",
+      "sku": [
+        {
+          "id": 260,
+          "selling_price": 300,
+          "max_retail_price": 280,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 10,
+          "product": 220
+        },
+        {
+          "id": 311,
+          "selling_price": 320,
+          "max_retail_price": 300,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 8,
+          "product": 220
+        },
+        {
+          "id": 312,
+          "selling_price": 340,
+          "max_retail_price": 320,
+          "amount": 3,
+          "unit": "pieces",
+          "quantity_in_inventory": 6,
+          "product": 220
+        },
+        {
+          "id": 313,
+          "selling_price": 360,
+          "max_retail_price": 340,
+          "amount": 4,
+          "unit": "pieces",
+          "quantity_in_inventory": 4,
+          "product": 220
+        },
+        {
+          "id": 314,
+          "selling_price": 380,
+          "max_retail_price": 360,
+          "amount": 5,
+          "unit": "pieces",
+          "quantity_in_inventory": 2,
+          "product": 220
+        }
+      ],
+      "updated_on": "2024-05-24T13:00:41.995873Z",
+      "adding_date": "2024-05-24T13:00:41.995828Z"
+    },
+    {
+      "id": 221,
+      "display_id": 20,
+      "owner": 1091,
+      "name": "Wizard's Staff",
+      "category": "Weapons",
+      "characteristics": "Magical Enhancement",
+      "features": "Spell Amplification",
+      "brand": "Wizard Brand",
+      "sku": [
+        {
+          "id": 261,
+          "selling_price": 400,
+          "max_retail_price": 380,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 10,
+          "product": 221
+        },
+        {
+          "id": 315,
+          "selling_price": 420,
+          "max_retail_price": 400,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 8,
+          "product": 221
+        },
+        {
+          "id": 316,
+          "selling_price": 440,
+          "max_retail_price": 420,
+          "amount": 3,
+          "unit": "pieces",
+          "quantity_in_inventory": 6,
+          "product": 221
+        },
+        {
+          "id": 317,
+          "selling_price": 460,
+          "max_retail_price": 440,
+          "amount": 4,
+          "unit": "pieces",
+          "quantity_in_inventory": 4,
+          "product": 221
+        },
+        {
+          "id": 318,
+          "selling_price": 480,
+          "max_retail_price": 460,
+          "amount": 5,
+          "unit": "pieces",
+          "quantity_in_inventory": 2,
+          "product": 221
+        }
+      ],
+      "updated_on": "2024-05-24T13:01:41.995873Z",
+      "adding_date": "2024-05-24T13:01:41.995828Z"
+    },
+    {
+      "id": 222,
+      "display_id": 21,
+      "owner": 1092,
+      "name": "Sorcerer's Stone",
+      "category": "Mystical Objects",
+      "characteristics": "Alchemy",
+      "features": "Immortality",
+      "brand": "Sorcerer Brand",
+      "sku": [
+        {
+          "id": 262,
+          "selling_price": 600,
+          "max_retail_price": 580,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 1,
+          "product": 222
+        },
+        {
+          "id": 319,
+          "selling_price": 620,
+          "max_retail_price": 600,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 2,
+          "product": 222
+        },
+        {
+          "id": 320,
+          "selling_price": 640,
+          "max_retail_price": 620,
+          "amount": 3,
+          "unit": "pieces",
+          "quantity_in_inventory": 3,
+          "product": 222
+        },
+        {
+          "id": 321,
+          "selling_price": 660,
+          "max_retail_price": 640,
+          "amount": 4,
+          "unit": "pieces",
+          "quantity_in_inventory": 4,
+          "product": 222
+        },
+        {
+          "id": 322,
+          "selling_price": 680,
+          "max_retail_price": 660,
+          "amount": 5,
+          "unit": "pieces",
+          "quantity_in_inventory": 5,
+          "product": 222
+        }
+      ],
+      "updated_on": "2024-05-24T13:02:41.995873Z",
+      "adding_date": "2024-05-24T13:02:41.995828Z"
+    },
+    {
+      "id": 223,
+      "display_id": 22,
+      "owner": 1093,
+      "name": "Gryphon Feather",
+      "category": "Magical Items",
+      "characteristics": "Strength and Speed",
+      "features": "Flight",
+      "brand": "Gryphon Brand",
+      "sku": [
+        {
+          "id": 263,
+          "selling_price": 90,
+          "max_retail_price": 80,
+          "amount": 10,
+          "unit": "grams",
+          "quantity_in_inventory": 20,
+          "product": 223
+        },
+        {
+          "id": 323,
+          "selling_price": 100,
+          "max_retail_price": 90,
+          "amount": 20,
+          "unit": "grams",
+          "quantity_in_inventory": 18,
+          "product": 223
+        },
+        {
+          "id": 324,
+          "selling_price": 110,
+          "max_retail_price": 100,
+          "amount": 30,
+          "unit": "grams",
+          "quantity_in_inventory": 16,
+          "product": 223
+        },
+        {
+          "id": 325,
+          "selling_price": 120,
+          "max_retail_price": 110,
+          "amount": 40,
+          "unit": "grams",
+          "quantity_in_inventory": 14,
+          "product": 223
+        },
+        {
+          "id": 326,
+          "selling_price": 130,
+          "max_retail_price": 120,
+          "amount": 50,
+          "unit": "grams",
+          "quantity_in_inventory": 12,
+          "product": 223
+        }
+      ],
+      "updated_on": "2024-05-24T13:03:41.995873Z",
+      "adding_date": "2024-05-24T13:03:41.995828Z"
+    },
+    {
+      "id": 224,
+      "display_id": 23,
+      "owner": 1094,
+      "name": "Enchanted Amulet",
+      "category": "Magical Objects",
+      "characteristics": "Protection",
+      "features": "Ward Against Evil",
+      "brand": "Enchanted Brand",
+      "sku": [
+        {
+          "id": 264,
+          "selling_price": 200,
+          "max_retail_price": 180,
+          "amount": 1,
+          "unit": "pieces",
+          "quantity_in_inventory": 10,
+          "product": 224
+        },
+        {
+          "id": 327,
+          "selling_price": 220,
+          "max_retail_price": 200,
+          "amount": 2,
+          "unit": "pieces",
+          "quantity_in_inventory": 8,
+          "product": 224
+        },
+        {
+          "id": 328,
+          "selling_price": 240,
+          "max_retail_price": 220,
+          "amount": 3,
+          "unit": "pieces",
+          "quantity_in_inventory": 6,
+          "product": 224
+        },
+        {
+          "id": 329,
+          "selling_price": 260,
+          "max_retail_price": 240,
+          "amount": 4,
+          "unit": "pieces",
+          "quantity_in_inventory": 4,
+          "product": 224
+        },
+        {
+          "id": 330,
+          "selling_price": 280,
+          "max_retail_price": 260,
+          "amount": 5,
+          "unit": "pieces",
+          "quantity_in_inventory": 2,
+          "product": 224
+        }
+      ],
+      "updated_on": "2024-05-24T13:04:41.995873Z",
+      "adding_date": "2024-05-24T13:04:41.995828Z"
+    }
+  ]
+  
