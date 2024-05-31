@@ -171,6 +171,11 @@ const Orders = () => {
         onOpen()
     }
 
+    const handleAdd = ()=>{
+        setSelectedOrder({})
+        onOpen()
+    }
+
     useEffect(() => {
         if(orderStatus === "active"){
             const filteredOrders = orders?.filter(el => el?.isPaid === false )
@@ -195,7 +200,7 @@ const Orders = () => {
             <Button bgColor='gray.300' color="gray.700" onClick={()=>setOrderStatus("active")}>Active Sale Order</Button>
             <Button bgColor='gray.300' color="gray.700" ml={4} onClick={()=>setOrderStatus("completed")}>Complete Sale Order</Button>
             <Spacer />
-            <Button bgColor='gray.300' color="gray.700" onClick={onOpen}><AddIcon mr={2}/>Sale Order</Button>
+            <Button bgColor='gray.300' color="gray.700" onClick={()=>handleAdd()}><AddIcon mr={2}/>Sale Order</Button>
         </Flex>
         <TableContainer backgroundColor='gray.100'>
             <Table variant='simple'>
