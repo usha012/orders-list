@@ -4,7 +4,8 @@ import {AddIcon} from '@chakra-ui/icons'
 import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, } from '@chakra-ui/react'
 import Select from 'react-select';
 import { useDispatch, useSelector } from 'react-redux';
-import { addOrder } from '../Redux/orderSlice';
+import { addOrder, editSaleOrder } from '../Redux/orderSlice';
+import { removeUser } from '../Redux/userSlice';
 
 const Orders = () => {
     const dispatch = useDispatch()
@@ -56,6 +57,7 @@ const Orders = () => {
     const createOrder = ()=>{
         const updatedOrders = {
             ...selectedOrder,
+            _id: Number(new Date()),
             isPaid: selectedOrder?.isPaid ? true : false,
             totalPrice: calculateTotal("price"),
             totalquantity: calculateTotal("quantity"),
@@ -109,6 +111,61 @@ const Orders = () => {
 
     }
 
+    const editOrder = ()=>{
+        const updatedOrders = {
+            ...selectedOrder,
+            isPaid: selectedOrder?.isPaid ? true : false,
+            totalPrice: calculateTotal("price"),
+            totalquantity: calculateTotal("quantity"),
+            updatedAt: (new Date()).toLocaleDateString()
+        }
+
+        //validation
+        const error = {}
+        if(!selectedOrder?.invoice_date){
+            error.invoice_date = "Required"
+        }
+        if(!selectedOrder?.invoice_no){
+            error.invoice_no = "Required"
+        }
+        if(!selectedOrder?.customer){
+            error.customer = "Required"
+        }
+        if(!selectedOrder?.items?.length > 0){
+            error.items = "Required"
+        }
+
+        let isErrorInSKU = false
+        let updatedSKUCheckOrdersItems = selectedOrder?.items?.map((product)=> ({
+            ...product,
+            sku: product?.sku?.map(el => {
+                if(el?.totalItems){
+                    return {...el, error: false}
+                } else {
+                    isErrorInSKU = true
+                    return {...el, error: true}
+                }
+            })
+        }))
+
+        if(isErrorInSKU){
+            setSelectedOrder({...selectedOrder, items: updatedSKUCheckOrdersItems})
+        }
+
+        if(Object.keys(error)?.length){
+            setError(error)
+        } else if(isErrorInSKU){
+            return
+        } else{
+            dispatch(editSaleOrder(updatedOrders))
+            setSelectedOrder({})
+            onClose()
+
+        }
+
+
+    }
+
     const handleEdit = order =>{
         setSelectedOrder(order)
         onOpen()
@@ -124,9 +181,16 @@ const Orders = () => {
         }
     }, [orderStatus, orders])
 
+    const logout = () => {
+        dispatch(removeUser())
+        window.location.reload()
+    }
+
+
+
     return (  
     <>
-    <Container maxW='7xl'>
+    <Container maxW='7xl' height={"100vh"}>
         <Flex py={8}>
             <Button bgColor='gray.300' color="gray.700" onClick={()=>setOrderStatus("active")}>Active Sale Order</Button>
             <Button bgColor='gray.300' color="gray.700" ml={4} onClick={()=>setOrderStatus("completed")}>Complete Sale Order</Button>
@@ -265,14 +329,18 @@ const Orders = () => {
                     <Box display="flex" justifyContent="space-between" mb="3" alignItems="center">
                         <Button onClick={onClose} w="50%">Discard</Button>
 
-                        <Button colorScheme='blue' w="50%" mr={3} onClick={()=>createOrder()}>
-                        Create Sale Order
+                        <Button colorScheme='blue' w="50%" mr={3} onClick={()=> selectedOrder?._id ? editOrder() : createOrder()}>
+                        {selectedOrder?._id ? "Save Order" : "Create Sale Order"}
                         </Button>
                     </Box>
                 </ModalFooter>
 
             </ModalContent>
         </Modal>
+
+        <Box pos="absolute" bottom="10%" right="20px">
+            <Button bgColor='gray.200' mr={3} onClick={logout}> Logout</Button>
+        </Box>
     </Container>    
     </>
   )
